@@ -6,7 +6,7 @@ A cloud-native, event-driven payment processing microservice built on Google Clo
 
 ## Architecture Overview
 
-![Architecture Diagram](./architecture.png)
+![Architecture Diagram](./architecture.drawio.png)
 
 The platform is split into two primary concerns:
 
@@ -162,7 +162,7 @@ When multiple providers are configured, the API server determines which provider
 
 ## Payment Workflows
 
-![Workflow Diagram](./workflows.png)
+![Workflow Diagram](./workflows.drawio.png)
 
 Each payment event type maps to a distinct workflow:
 
